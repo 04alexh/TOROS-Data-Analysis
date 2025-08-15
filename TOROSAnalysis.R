@@ -15,8 +15,8 @@ TOROSAnalysis <- function(night_folders = NULL,
                           LSST_target_name = "" ,
                           LSST_N = 0 ,
                           LSST_sigma = 0 ,
-                          LSST_M ,
-                          LSST_I
+                          LSST_M = 0,
+                          LSST_I = 0
                           ) #field_name , file_prefix = "Alignened")
 {
 
